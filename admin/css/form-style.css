@@ -1,0 +1,43 @@
+body{
+    background: #eee;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.login-form{
+    width: 330px;
+    margin: 35px auto 0 auto;
+    padding: 15px;
+}
+.login-form .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.form-control:focus{
+    z-index: 2;
+}
+.login-form input[type="email"]{
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.login-form input[type="password"]{
+    margin-bottom: 10px;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+.alert{
+    display: none;
+    margin: 35px auto;
+    width: 350px;
+}
+
